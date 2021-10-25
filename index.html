@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style type="text/css">
+      h1.headingOne {
+        font-weight: bold;
+        color: white;
+
+        padding-left: 80px;
+        padding-top: 90px;
+      }
+    </style>
+  </head>
+  <body class="body-all" style="background-color: #04202b">
+    <div class="menu-bar" id="myTopnav">
+      <a href="./index.html" class="button">Home</a>
+      <a href="./aboutMe.html" class="button">About Me</a>
+      <a href="./contactMe.html" class="button">Contact Me</a>
+      <a href="https://github.com/Mazid524" class="button">GitHub</a>
+      <a
+        href="https://www.linkedin.com/in/abdul-mazid-0b946a164/"
+        class="button"
+        >LinkedIn</a
+      >
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- Small JavaScript for menu bar *** START HERE*** -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "menu-bar") {
+          x.className += " responsive";
+        } else {
+          x.className = "menu-bar";
+        }
+      }
+    </script>
+    <!-- JavaScript End Here -->
+
+    <div>
+      <img
+        style="
+          border-radius: 50%;
+          float: right;
+          /* padding-right: 50px;
+          padding-left: 50px;
+          padding-top: 90px;
+          padding-bottom: 90px; */
+        "
+        src="./ProfilePicFinal.jpg"
+        alt="Profile Picture"
+        width="23%"
+        height="37%"
+      />
+      <p class="headingOne"><strong>Hi I'm Mazid!</strong></p>
+      <p class="first_paragraph">
+        Hello! Hello! My name is Abdul Mazid. I am a software and web developer.
+        Currently, I am in my third year of school, majoring in Computer Science
+        at the University of Prince Edward Island. I'm passionate about Computer
+        Science and learning new technology. AI/Machine Learning, full-stack
+        development, and Competitive programming are my major interests.
+        Besides, I love coffee and Badminton.
+      </p>
+    </div>
+    <div
+      style="
+        color: white;
+        font-size: 25pt;
+        padding-left: 80px;
+        padding-top: 90px;
+      "
+    >
+      <p>
+        <i>
+          "Computer Science is a science of abstraction -creating the right
+          model for a problem and devising the appropriate mechanizable
+          techniques to solve it."
+        </i>
+      </p>
+      <p style="text-align: center">--Alfred Aho--</p>
+    </div>
+    <div class="bottom-container">
+      <div style="margin-left: 45%">
+        <p class="copyRight">© 2021 Abdul Mazid</p>
+      </div>
+    </div>
+  </body>
+</html>

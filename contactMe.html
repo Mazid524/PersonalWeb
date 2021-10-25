@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body style="background-color: #04202b; color: white" class="contact-page">
+    <div class="contact-form">
+      <form action="mailto:amazid@upei.ca" method="post" enctype="text/plain">
+        <label for="fname">First Name: </label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+        <br />
+        <br />
+
+        <label for="lname">Last Name: </label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <br />
+        <br />
+
+        <label for="Province">Province: </label>
+        <select id="Province" name="Province">
+          <option value="AB">AB</option>
+          <option value="BC">BC</option>
+          <option value="QC">QC</option>
+          <option value="ON">ON</option>
+          <option value="MB">MB</option>
+          <option value="SK">SK</option>
+          <option value="YT">YT</option>
+          <option value="NT">NT</option>
+          <option value="NU">NU</option>
+          <option value="NL">NL</option>
+          <option value="PE">PE</option>
+          <option value="NS">NS</option>
+          <option value="NB">NB</option>
+        </select>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="canada">Canada</option>
+        </select>
+        <br />
+        <br />
+        <label for="typee"> What type of Message? </label> <br />
+        <label for="type-of-msg"
+          ><i>Computer Science</i>
+          <input name="questionType" type="radio" value="Computer Science" />
+        </label>
+
+        <label for="type-of-msg"
+          ><i>Other</i>
+          <input name="questionType" type="radio" value="Computer Science" />
+        </label>
+        <br />
+        <br />
+        <label for="subject">Message:</label>
+        <br />
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 100px; width: 300px"
+        ></textarea>
+        <br />
+        <input type="submit" class="submit-button" value="Submit" />
+        <input type="reset" class="submit-button" value="Clear" />
+      </form>
+    </div>
+    <div class="contact-heading">
+      <h1>Contact Information</h1>
+      <li>Email: amazid@upei.ca</li>
+    </div>
+    <div class="button-center">
+      <a href="./index.html" class="button">Home</a>
+      <a href="https://github.com/Mazid524" class="button">GitHub</a>
+
+      <a
+        href="https://www.linkedin.com/in/abdul-mazid-0b946a164/"
+        class="button"
+        >LinkedIn</a
+      >
+    </div>
+  </body>
+</html>
