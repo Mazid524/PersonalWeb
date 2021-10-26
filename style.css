@@ -178,6 +178,10 @@ th {
 }
 
 .bottom-container {
+  position: sticky;
+  bottom: 0%;
+  width: 100%;
+  margin-top: 25%;
   background-color: #1188b7;
-  padding: 50px 0 20px;
+  /* padding: 50px 0 20px; */
 }
